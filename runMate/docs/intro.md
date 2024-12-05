@@ -1,47 +1,69 @@
+# RunMate
+
+**RunMate** — это приложение для поиска партнера по бегу, созданное, чтобы помочь людям находить единомышленников для совместных пробежек и достигать лучших спортивных результатов. 
+
+
 ---
-sidebar_position: 1
+
+## Ключевые функции
+
+- **Планирование пробежек**:
+  - Создание и управление расписанием пробежек.
+  - Уведомления о предстоящих тренировках.
+
+- **Поиск партнера по бегу**:
+  - Поиск по географическому положению, уровню подготовки, желаемому времени и маршруту.
+  - Удобные фильтры:
+    - По дате и времени пробежки.
+    - По маршруту.
+    - По темпу (медленный, средний, быстрый).
+
+- **Чат**:
+  - Общение с компаньонами по пробежке в реальном времени.
+  - Планирование совместных тренировок.
+
 ---
 
-# Tutorial Intro
+## Технологический стек
 
-Let's discover **Docusaurus in less than 5 minutes**.
+RunMate построен на современных технологиях для обеспечения высокой производительности, удобства использования и надежности.
 
-## Getting Started
+- **Frontend**:
+  - React (с использованием функциональных компонентов и хуков).
+  - Redux Toolkit для управления состоянием приложения.
+  - TypeScript для типизации.
 
-Get started by **creating a new site**.
+- **Backend**:
+  - Node.js с использованием фреймворка NestJS.
+  - RESTful API для взаимодействия с клиентской частью.
+  - WebSocket для реализации чатов в реальном времени.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **База данных**:
+  - PostgreSQL — основная реляционная база данных.
+  - Redis — для кэширования и ускорения запросов.
 
-### What you'll need
+- **Инфраструктура**:
+  - Docker для контейнеризации.
+  - Nginx для реверс-прокси.
+  - AWS (S3 для хранения изображений профилей, RDS для базы данных).
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **Мониторинг и логирование**:
+  - Prometheus и Grafana для мониторинга производительности.
+  - ELK-стек для централизованного сбора и анализа логов.
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
+## Контакты разработчиков
 
-The classic template will automatically be added to your project after you run the command:
+Если у вас есть вопросы или предложения, свяжитесь с нами:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- **Email**: [support@runmate.ru](mailto:contacts@runmate.ru)
+- **Telegram**: [@runmate_support](https://t.me/runmate_support)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## Как начать пользоваться?
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+1. Скачайте приложение RunMate на [App Store](https://www.apple.com/app-store/) или [Google Play](https://play.google.com/store).
+2. Зарегистрируйтесь и настройте свой профиль.
+3. Найдите компаньона для пробежки и начните тренироваться уже сегодня!

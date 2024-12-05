@@ -1,0 +1,7 @@
+position: 1 # для сортировки папки в сайдбаре
+label: Концепт и границы # название пункта меню в сайдбаре
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Концепт и границы # Заголовок на странице
