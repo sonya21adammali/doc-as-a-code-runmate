@@ -67,7 +67,7 @@ const config = {
         title: 'RunMate',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
       },
       footer: {
@@ -108,12 +108,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/sonya21adammali/doc-as-a-code-runmate',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} RunMate, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

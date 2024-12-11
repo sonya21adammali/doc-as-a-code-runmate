@@ -4,32 +4,36 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Быстрый поиск партнёра',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        RunMate позволяет быстро и удобно найти партнёра для пробежек, учитывая
+        ваше местоположение, уровень подготовки и предпочтения по маршруту.
+        С нами вам больше не придётся бегать в одиночку!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Сообщество бегунов',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Приложение помогает создавать сообщество единомышленников. Вы можете
+        общаться с партнёрами в чате, планировать совместные пробежки, делиться
+        результатами и поддерживать друг друга на пути к спортивным целям.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Мотивация',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        С RunMate вы сможете отслеживать свои результаты, анализировать
+        тренировки и сохранять мотивацию благодаря соревновательному духу.
+        Развивайтесь вместе с партнёрами, используя точные данные о ваших
+        достижениях.
       </>
     ),
   },

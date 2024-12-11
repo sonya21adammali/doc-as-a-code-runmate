@@ -4,7 +4,8 @@
 
 ## Таблица BPMN
 
-![Таблица BPMN поиска компаньона](https://cdn.buildin.ai/s3/2cea6fd1-034f-4957-932a-6bea9bf44e8a/diagram_2.png?time=1733426100&token=0d4e26b0cf18beec7dec3b74672cd903&role=sharePaid)
+![Таблица BPMN поиска компаньона](../../static/img/BPMN.png)
+
 
 
 ### Краткое описание
